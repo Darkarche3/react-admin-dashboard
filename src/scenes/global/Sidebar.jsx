@@ -129,7 +129,7 @@ const Sidebar = () => {
             <Button
               href="https://personality1.netlify.app/"
               sx={{ m: "0 0 0 20px" }}
-            > SIGNOUT</Button>
+            > BACK</Button>
             
 
             <Typography
