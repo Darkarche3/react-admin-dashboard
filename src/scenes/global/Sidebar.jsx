@@ -16,6 +16,7 @@ import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
+import Button from "@mui/material/Button";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -125,13 +126,11 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
 
-            <Item
-              title="Signout"
-              to="https://personality1.netlify.app/"
-              icon={<HomeOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
+            <Button
+              href="https://personality1.netlify.app/"
+              sx={{ m: "0 0 0 20px" }}
+            > SIGNOUT</Button>
+            
 
             <Typography
               variant="h6"
