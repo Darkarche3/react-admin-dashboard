@@ -125,6 +125,14 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
 
+            <Item
+              title="Sign Out"
+              to="https://personality1.netlify.app"
+              icon={<PeopleOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />            
+
             <Typography
               variant="h6"
               color={colors.grey[300]}
